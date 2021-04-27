@@ -1,0 +1,251 @@
+.body {
+    width: 60%;
+    background-color: #f6f9fb;
+    margin: 20px 10%;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    text-align: center;
+    padding: 30px 10%;
+}
+
+button {
+    transition: 0.5s;
+}
+/* Thanh cuộn */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+/* End */
+
+.title {
+    font-size: 32px;
+    font-weight: 600;
+    color: #333;
+}
+
+.title span {
+    font-weight: 100;
+    display: block;
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.inp table {
+    border-collapse: collapse;
+    color: #333;
+    margin: 50px 0;
+}
+
+.inp td {
+    width: 35%;
+    padding: 7px 12px;
+    border-bottom: 1px solid rgb(161, 161, 161);
+}
+
+.inp td.in {
+    text-align: right;
+}
+
+.inp td>input {
+    padding: 10px 12px;
+    font-size: 16px;
+    outline: 0;
+    border: 1px solid #c1c1c1;
+    border-right: none !important;
+    border-radius: 5px 0 0 5px;
+}
+
+.inp td>span {
+    font-size: 15px;
+    border: 1px solid rgb(161, 161, 161);
+    padding: 10px 10px;
+    border-radius: 0 5px 5px 0;
+    background-color: #f0f0f0;
+}
+
+.inp td>button {
+    font-size: 16px;
+    border: 1px solid rgb(161, 161, 161);
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.inp td button#male, .inp td button#damau {
+    border-radius: 5px 0 0 5px;
+    border-right: none;
+    transition: 0s;
+}
+
+.inp td button#female, .inp td button#daden {
+    border-radius: 0 5px 5px 0;
+    transition: 0s;
+}
+
+.next-calc button, .results .nextstep button {
+    font-size: 16px;
+    border: 1px solid #1bb193;
+    padding: 12px 25px;
+    background-color: #1bb193;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+}
+
+.next-calc button:hover , .results .nextstep button:hover{
+    background-color: #117d67;
+}
+
+.results {
+    background-color: #117d67;
+    padding: 20px 40px;
+    border-radius: 5px;
+    border: 1px solid #117d67;
+    margin: 50px 0;
+    color: white;
+    text-align: left;
+}
+
+.results .title {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.results .nextstep {
+    width: 100%;
+    display: flow-root;
+}
+
+.results .nextstep button {
+    float: right;
+}
+
+.list-medicine select {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 5px;
+    outline: 0;
+    float: right;
+    min-width: 200px;
+}
+
+.list-medicine input {
+    padding: 10px 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid rgb(161, 161, 161);
+    outline: 0;
+    float: left;
+    width: 300px;
+}
+
+.list-medicine button {
+    float: left;
+    margin: 0 10px;
+    padding: 8px 12px;
+    font-size: 17px;
+    border: 1px solid #1bb193;
+    background-color: #1bb193;
+    color: white;
+    cursor: pointer;
+    outline: 0;
+    border-radius: 5px;
+}
+
+.list-medicine button:hover {
+    background-color: #117d67;
+}
+
+.list {
+    clear: both;
+    padding: 50px 0;
+}
+
+.list table, .list tr, .list th , .list td {
+    border: 1px solid rgb(161, 161, 161);
+    outline: 0;
+}
+
+.list table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #333;
+}
+
+.list tr:nth-child(odd) {
+    background-color: #f1f5f6;
+}
+
+.list tr:nth-child(odd) {
+    background-color: white;
+}
+
+.list th {
+    padding: 7px 0;
+    font-size: 18px;
+    background-color: #f0f0f0;
+}
+
+.list td {
+    padding: 7px 10px;
+    font-size: 16px;
+}
+
+.fail {
+    background-color: #f73e3e;
+    padding: 20px 40px;
+    border-radius: 5px;
+    border: 1px solid #f73e3e;
+    margin: 50px 0;
+    color: white;
+    text-align: left;
+}
+
+/*
+
+.resName {
+    border: 1px solid #888;
+    height: 120px;
+    width: 300px;
+    position: absolute;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+.resName ul {
+    text-align: left;
+    list-style-type: none;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    padding-inline-start: 0;
+}
+
+.resName ul li {
+    padding: 5px 12px;
+    cursor: pointer;
+}
+
+.resName ul li:hover {
+    transition: 0.5s;
+    background-color: #c1c1c1;
+}*/
